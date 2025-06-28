@@ -1,0 +1,59 @@
+body{
+    background-color: #2c2b2b ;
+    
+}
+div > h1{
+    padding: 25px;
+    width: 700px;
+    border: 5px solid rgb(6, 6, 255);
+    position: sticky;
+    left: 145px ;
+    top:10px;
+    border-radius: 16px;
+    background-color: rgb(35, 240, 206);
+    text-align: center;
+    font-size: xx-large;
+   font-weight: 200px;
+   font-style: italic;
+   color: rgb(10, 4, 60);
+}
+#v1{
+    padding:10px;
+    color: rgb(246, 47, 47);
+    position: sticky;
+    width:25vw ;
+    left: 380px ;
+    top: 70px;
+    border: 3px solid rgb(106, 36, 36);
+    border-radius: 15px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: rgb(255, 199, 245);
+    font-style: italic;
+}
+#vid{
+    margin: 20px;
+   border: 5px solid greenyellow;
+   position:sticky;
+   left: 250px ;
+   top: 150px;
+   border-radius: 25px;
+   }
+   #a{
+    position: relative;
+    left: 370px ;
+   }
+   #ah{
+    background-color: darkmagenta ;
+    color: aqua;
+    width: 40vw;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid aqua;
+    font-style: italic;
+    border-radius: 25px;
+    position: sticky;
+    left: 250px ;
+    top:0px ;
+    order:10 ;
+   }
