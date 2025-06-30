@@ -7,31 +7,38 @@
     <style>
         .containor{
            width: 250px;
+           height:250px ;
            border: 2px solid black;
            display: grid;
+         /*  grid-template-columns:1fr 2fr 1fr ;
            grid-template-areas: " nav nav nav" 
                                  " side article main"
                                  "f f d"
-                                 "t k k";
+                                 "t k k";*/
+            grid-template-rows:repeat(4 , 40px) ;
+           row-gap: 15px;
+           column-gap: 20px;
+           justify-items: center;
+           align-items: center;
+           justify-self:center ;
         }
         .box{
-            
+            width: 20px;
+            height: 25px;
           border: 2px solid red; 
           color: blue;
-          width: 40px;
+        
         }
-        .box1{
-          grid-area:d ;
+        /* .box1{
+          grid-area:main ;
         }
          .box3{
           grid-area:nav ;
         }
          .box4{
-          grid-area:t;
-        }
-        .box2{
-          grid-area:article;
-        }
+          grid-area:k;
+        } */
+        
     </style>
 </head>
 <body>
