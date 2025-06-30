@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+}
+ul{
+    display:flex ;
+    position: fixed;
+    right: 0px;
+    width: 350px;
+    justify-content: space-evenly;
+}
+.UE{
+    background-color: black;
+    color:yellow ;
+    height:25px ;
+    width: 30px;
+    font-weight: 600;
+    padding-top: 5px;
+    text-align: center;
+    font-style: italic;
+    padding-right:2px ;
+}
+li{
+  list-style: none;
+   margin-left: 3px;
+}
+img{
+    height: 25px;
+    width: 25px;
+}
+a{
+    color: black;
+    text-decoration:none ;
+}
+h3{
+    margin-left: 5px;
+    margin-top: 2px;
+    font-size: large;
+}
+.ic{
+    font-size:50%;
+    position: relative;
+      margin-left: 20px;
+     margin-top: -3px;
+}
+.name{
+    display: flex;
+    flex-direction:column ;
+}
