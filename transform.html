@@ -9,16 +9,16 @@
             background-color: antiquewhite;
             height:50vh ;
             width: 50vw;
-             border: 2px solid black;
+             border: 2px solid rgb(88, 85, 85);
              display: flex;
-             
-             
-        }
+             justify-content: center;
+             align-items: center;
+             }
          .c{
-            background-color: rgb(147, 114, 72);
+            background-color: rgb(215, 128, 14);
             height:50px ;
             width: 50px;
-            border: 2px solid black;
+            border: 2px solid rgb(216, 13, 13);
          /*   transform: scale(1.5);*/
            /* transform: scaleX(2);*/
            /* transform: translate(25px);*/
@@ -31,13 +31,17 @@
          /* transform: rotateZ(48deg);*/
          /*transform: skewX(45deg);*/
         /* transform: skewY(45deg);*/
-        transform: skew(30deg);
-
-        }
+       /* transform: skew(30deg);*/
+       position: relative;
+        right: 120px;
+       }
+       h1{
+        color: rgb(35, 33, 33);
+       }
         </style>
 </head>
 <body>
-   <div class="con">
+   <div class="con"> <h1>this is parent box</h1>
     <div class="c">sumit kashyap</div>
    </div> 
 </body>
