@@ -35,8 +35,17 @@
             height: 80vh;
             width:80vw ;
             background-color: aqua;
-             display: flex;
-             justify-content: space-evenly;
+        }
+        .main:hover{
+            cursor: pointer;
+            background-color: black;
+            color: cadetblue;
+            text-align: center;
+            font-weight: 700;
+            font-size: x-large;
+        }
+        .temp{
+            display:flex;
         }
       .box1:hover{ 
          background-color: rgb(204, 127, 255);
@@ -63,7 +72,8 @@
        }
       .box4:hover{
                 background-color: rgb(244, 207, 235);
-                transition-duration: 1s ;
+                transition-duration: 0.4s ;
+                transition-timing-function:ease-out ;
                 font-size: large;
       }
       .box5:hover{
@@ -71,7 +81,8 @@
                  background-size: cover ;
       }
       .box6:hover{
-                
+             background-color: beige;  
+              font-size: x-large;
       }
       .box1:active{
                     /*code left*/
@@ -96,12 +107,15 @@
 </head>
 <body>
     <div class="main">
+        <h1>hello guys</h1>
+        <div class="temp">
     <div class="box box1"><a href="#">happy birthday</a></div>
     <div class="box box2"><a href="#">thankyou</a></div>
     <div class="box box3"><a href="#">welcome</a></div>
     <div class="box box4"><a href="#">happy new year</a></div>
     <div class="box box5"><a href="#">congratulations</a></div>
     <div class="box box6"><a href="#">help men </a></div>
+    </div>
 </div>
 
 </body>
