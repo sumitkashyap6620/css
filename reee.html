@@ -20,7 +20,9 @@
            font-size: 20px;
            font-weight: 600;
            font-style: italic;
-           
+           cursor: pointer;
+           transition-duration: 0.5s ;
+           transition-timing-function:ease-in;
         }
         .main{
             height: 80vh;
@@ -34,13 +36,40 @@
          color: blue;
          transition-duration: 2s ;
          font-size:medium;
-         transition-timing-function: (5steps);
+         transition-timing-function: steps(2);
+         /*transition-delay: 1s ;*/
+         
       }
-      .box{}
-      .box{}
-      .box{}
-      .box{}
-      .box{}
+      .box2:hover{
+        background-color: dimgrey;
+        color: aqua;
+        font-size: medium;
+        transition: all;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-in;
+      }
+      .box3:hover{
+       background-image: url(sumity.jpg);
+        background-size: cover;
+       color:  red;
+       font-size: 24px;
+       }
+      .box4:hover{
+     
+      }
+      .box5:hover{
+
+      }
+      .box6:hover{
+
+      }
+      .box1:active{}
+      .box2:active{}
+      .box3:active{}
+      .box4:active{}
+      .box5:active{}
+      .box6:active{}
+            
     </style>
 </head>
 <body>
