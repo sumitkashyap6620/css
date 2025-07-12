@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loader</title>
+    <style>
+        .loader{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            border: 5px solid rgb(229, 235, 229);
+            border-top-color: blue;
+            position: relative;
+            display:flex;
+           justify-content: center;
+            font-size: small;
+            align-items: center;
+            justify-self: center;
+            animation: load 1.2s ease-in 0s infinite normal;
+            top: 200px;
+
+        }
+        @keyframes load {
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+             transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="loader"></div>
+</body>
+</html>
