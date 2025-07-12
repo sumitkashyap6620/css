@@ -35,6 +35,9 @@
             height: 80vh;
             width:80vw ;
             background-color: aqua;
+            text-align: center;
+            transition-duration: 0.22s ;
+            transition-timing-function:ease-in-out ;
         }
         .main:hover{
             cursor: pointer;
@@ -43,6 +46,7 @@
             text-align: center;
             font-weight: 700;
             font-size: x-large;
+
         }
         .temp{
             display:flex;
@@ -85,22 +89,36 @@
               font-size: x-large;
       }
       .box1:active{
-                    /*code left*/
+                    background-color: rgb(92, 51, 215);
+                    transition-duration: 0.5s;
+                    transition-timing-function:linear;
       }
       .box2:active{
-                    /*code left*/
+                    background-color: rgb(246, 255, 0);
+                    
+                    transition-timing-function:linear;
       }
       .box3:active{
-                     /*code left*/
+                     background-image: url(sumity2.jpg);
+                    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+                    transition-timing-function:linear;
       }
       .box4:active{
-                     /*code left*/
+                      background-color: rgb(220, 159, 3);
+                    
+                    transition-timing-function:ease-in;
       }
       .box5:active{
-                     /*code left*/
+                     background-image: url(Aa.jpg);
+                     background-size: cover;
+                     transition-timing-function: ease;
+                     transition-duration: .3s;
       }
       .box6:active{
-                     /*code left*/
+                     background-color: rgb(85, 0, 255);
+                     transition-timing-function:ease-in;
+                     transition-duration: 2s;
+                     transition-delay: 2s;
       }
             
     </style>
