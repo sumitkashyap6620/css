@@ -5,12 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animations</title>
    <style>
+   h1{
+    display: flex;
+    justify-content: center;
+    top: 25px;
+    background-color: aquamarine;
+   }
     .main{
         display: flex;
         background-color: rgb(231, 235, 227);
         height: 50vh;
         width: 50vw;
         justify-content: space-evenly;
+        position: relative;
+        justify-self: center;
+        top: 100px;
+       /* animation-name: back ;
+        animation-timing-function:ease-in ;
+         animation-iteration-count:1000000 ;
+         animation-duration: .2s;
+        animation-delay:2sec ;*/
+        /* ANIMATION IN SINGLE LINE */
+        animation: back .2s ease-in 2s 10000 normal ;
     }
     .box{
         width: 50px;
@@ -27,13 +43,14 @@
         animation-duration: 2s;
        animation-timing-function:ease-in-out ;
        animation-iteration-count:100000 ;
+       animation-direction:alternate ;
 }
    @keyframes sumitanimation {
     from{top: 5px;}
     to{top: 190px;}
    }
    @keyframes back {
-    from{background-color:chartreuse;}
+    from{background-color:rgb(231, 235, 227);}
     to{
         background-color: red;
     }
@@ -41,6 +58,7 @@
    </style>
 </head>
 <body>
+    <h1>My Animation</h1>
     <div class="main">
         <div class="box">hi</div>
         <div class="box">hello</div>
