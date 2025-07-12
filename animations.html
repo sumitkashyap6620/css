@@ -40,14 +40,25 @@
         left: -5px;
         border-radius: 5px;
         animation-name:sumitanimation  ;
-        animation-duration: 2s;
+        animation-duration: 5s;
        animation-timing-function:ease-in-out ;
        animation-iteration-count:100000 ;
        animation-direction:alternate ;
 }
    @keyframes sumitanimation {
-    from{top: 5px;}
-    to{top: 190px;}
+    0%{
+        top: 5px;
+        background-color:chartreuse ;
+        font-style: italic;
+    }
+    50%{
+        background-color: rgb(127, 129, 255);
+    }
+    100%{
+        top: 190px;
+        background-color: rgb(252, 248, 248);
+        font-style: oblique;
+    }
    }
    @keyframes back {
     from{background-color:rgb(231, 235, 227);}
