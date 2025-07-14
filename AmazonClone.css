@@ -4,3 +4,54 @@
     font-family:Arial;
     border: border-box;
 }
+.navbar{
+    height:50px ;
+    width: 100% ;
+    background-color:#131921 ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.border{
+    border: 1.8px solid transparent;
+}
+.border:hover{
+    border: 1.8px solid white;
+}
+.location{
+    display: flex;
+}
+.updatelocation{
+    margin-left: 5px;
+    font-weight: 700;
+    font-size: 13px;
+   
+}
+.address{
+    font-size: small;
+    margin-left: 15px;
+    font-weight: 100;
+    color: rgb(215, 213, 209);
+    padding-top: 8px;
+    
+}
+.navlogo{
+    height: 45px;
+    width: 119px;
+    margin-top: 5.5px;
+    margin-bottom: 5px;
+    background-image: url(amazonlogo.png);
+    background-size: cover;
+}
+.navlocation{
+   height: 45px;
+     margin-top: 5.5px;
+    margin-bottom: 5px;
+}
+.search{
+    height: 35px;
+}
+.button{
+
+}
