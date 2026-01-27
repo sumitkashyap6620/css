@@ -50,8 +50,60 @@
     margin-bottom: 5px;
 }
 .search{
-    height: 35px;
+    height: 60px;
+    width: 322px;
+    display: flex;
+    align-items:center ;
 }
 .button{
+          background-color: #E6E6E6;
+          color: #636868 ;
+          height:40px ;
+          width: 121px;
+         border: 2px solid  #E6E6E6;
+         border-bottom-left-radius: 5px;
+         border-top-left-radius: 5px;
+}
+.button:hover{
+    color: black;
+     background-color: #d8d8d8;
+}
+.searchtext{
+    height: 37px;
+    width: 150px;
+    border:2px solid white ;
+}
+.searchsymbol{
+    background-color: rgb(242, 160, 19);
+    color: rgb(43, 42, 42);
+    height:40px ;
+    width: 45px;
+     font-size: large;
+       display: flex;
+      align-items: center;
+      justify-content: center;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+}
+.flag{
+    background-image: url(indianflag.png);
+    height: 15px;
+    width: 25px;
+    background-size: cover;
+    margin-top: 10px;
+}
+.lang{
+    display: flex;
+     height: 35px;
+}
 
+.selectlang{
+    background-color: #131921;
+    border: 2px solid #131921;
+    color:white ;
+    font-weight: bolder;
+}
+.account{
+    height:40px ;
+    width: 70px;
 }
